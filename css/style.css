@@ -1,0 +1,527 @@
+/* manrope-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/manrope-v14-cyrillic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v14-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v14-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v14-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v14-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v14-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #f7f6ff;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1287px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* BUTTON */
+.btn {
+  padding: 14px 33px 14px 44px;
+  color: #fff;
+  background: linear-gradient(115.11deg, #f32c4c 10.12%, #cb1d95 100.01%);
+  border-radius: 9px;
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
+.header {
+  box-shadow: 0px 4px 18px 0px #00000014;
+  padding: 16px 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  display: block;
+  margin-right: auto;
+  /* display: flex; */
+}
+
+.sitenav {
+  margin-right: 159px;
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav__link {
+  padding: 16px;
+  color: black;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero__title h1 {
+  font-weight: 800;
+  line-height: 65px;
+  font-size: 45px;
+  margin-bottom: 14px;
+}
+
+.title-wrapper {
+  font-size: 38px;
+  color: var(--unnamed, #333);
+  font-weight: 700;
+  line-height: 48px;
+  padding-top: 32px;
+  padding-bottom: 41px;
+}
+
+.hero__title span {
+  font-weight: 500;
+  font-size: 55px;
+}
+
+.hero__button {
+  padding: 10px;
+  background-color: #77b2d3;
+  text-decoration: none;
+  border-radius: 250px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.hero__button {
+  padding: 14px 30px;
+  color: #ffffff;
+}
+
+main {
+  padding-top: 60px;
+}
+
+.title__wrapper {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.card {
+  max-width: 1170px;
+  height: 254px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.dizayn {
+  color: #333333;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 38px;
+  margin-left: 55px;
+  padding-top: 40px;
+}
+.card__container {
+  display: flex;
+  gap: 130px;
+  color: #ffff;
+  margin-left: 55px;
+  margin-top: 35px;
+}
+
+.card__title {
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  background: var(--3, linear-gradient(122deg, #f32c6d 29.57%, #cb1d95 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card__desc {
+  color: var(--unnamed, #333);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.main__card {
+  max-width: 220px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: #333333;
+  padding-bottom: 15px;
+  height: 378px;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+.hero__description {
+  padding: 11px 20px;
+  max-width: 220px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #77b2d3;
+  color: #ffffff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.hero__description1 {
+  color: var(--unnamed, #333);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding-top: 14px;
+  padding-bottom: 29px;
+}
+.hero__description > h3 {
+  text-align: center;
+  align-items: center;
+  /* height: 4rem; */
+  text-transform: uppercase;
+}
+.ul__description {
+  padding: 0 11px;
+}
+.li_description {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.card_container {
+  width: 100%;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__card {
+  flex-direction: column;
+}
+.contact-btn {
+  margin-top: 20px;
+}
+.divider {
+  width: 210px;
+  height: 1px;
+  background: #e2e2e2;
+  margin-top: auto;
+}
+
+.divider__small-text {
+  font-size: 20px;
+  margin-top: 1.1rem;
+}
+
+.card_price {
+  background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  padding-right: 10px;
+  margin-top: auto;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 570px;
+  padding: 20px;
+  border-radius: 7px;
+  position: relative;
+}
+
+.message, .signin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: royalblue;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span {
+  color: green;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+  padding: 14px 55px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+}
+
+.submit:active {
+  opacity: 0.8;
+}
+
+.input-aria {
+  height: 10rem;
+}
+
+.contact-us {
+  margin-top: 80px;
+}
+
+.contact-us__container {
+  display: flex;
+}
+.contact-us__wrapper {
+  max-width: 530px;
+}
+
+.contact-us__img {
+  margin-left: auto;
+}
+
+.contact-us__title {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.contact-us__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 22px;
+  color: #333;
+}
+
+
+/* FOOTER */
+.footer {
+  margin-top: 90px;
+  background-color: #fff;
+}
+
+.footer__container {
+  padding-top: 52px;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+
+.footer__links {
+  margin-top: 5px;
+  margin-bottom: 44px;
+}
+
+.footer__first-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-bottom: 1px solid #333;
+  color: #333;
+}
+.btn-footer {
+  margin-top: 22px;
+}
+
+.end {
+  margin-left: 20rem;
+  display: flex;
+  gap: 244px;
+}
+
+.box-1 span{
+  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.box-2 span {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.box-1 ul li  a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #333;
+}
+
+.box-2 ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #333;
+}
+
+.bottom {
+  background-color: #2D2D2D;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
